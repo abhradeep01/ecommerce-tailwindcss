@@ -1,9 +1,11 @@
 import './App.css';
-import Nav from './pages/Nav';
+import SlideBar from './components/SlideBar';
+
 function App() {
   return (
     <div className="">
-      <Nav/>
+      <SlideBar 
+        />      
     </div>
   );
 }
