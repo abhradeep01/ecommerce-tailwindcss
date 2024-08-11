@@ -13,7 +13,7 @@ function ShoppingCart({itemImg,itemName,orgPrice,discountedPrice,discount}) {
         fav
     }
     return(
-        <div className="w-44 relative p-1 rounded-xl border border-gray-100 shadow-sm hover:shadow-lg x-sm:hover:shadow-none" data={cartData} id='cart'>
+        <div className="min-w-44 max-w-48 relative p-1 rounded-xl border border-gray-100 shadow-sm hover:shadow-lg x-sm:hover:shadow-none" data={cartData} id='cart'>
             <div className={`absolute z-10 rounded-md font-bold text-white shadow-md p-1 capitalize text-sm ${discount==='new'?"bg-green-700":'bg-red-600'}`} 
                 style={discount?{display:'block'}:{display:'none'}}>
                 {discount}
