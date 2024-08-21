@@ -2,19 +2,20 @@ import React, { useState } from 'react';
 import { IconButton } from '@mui/material';
 import { Favorite,FavoriteBorder } from '@mui/icons-material';
 
-function ShoppingCart({itemImg,itemName,orgPrice,discountedPrice,discount}) {
+function ShoppingCart({key,itemImg,itemName,orgPrice,discountedPrice,discount}) {
     const [fav,setFav] = useState(false);
     const cartData ={
+        key,
+        discount,
         itemImg,
         itemName,
         orgPrice,
         discountedPrice,
-        discount,
         fav
     }
     return(
-        <div className="min-w-44 max-w-48 relative p-1 rounded-xl border border-gray-100 shadow-sm hover:shadow-lg x-sm:hover:shadow-none" data={cartData} id='cart'>
-            <div className={`absolute z-10 rounded-md font-bold text-white shadow-md p-1 capitalize text-sm ${discount==='new'?"bg-green-700":'bg-red-600'}`} 
+        <div className="min-w-44 max-w-48 relative p-1 rounded-md border border-gray-200 shadow-sm snap-center flex flex-col gap-1.5 hover:shadow-md hover:shadow-gray-300 x-sm:hover:shadow-none x-sm:shadow-white" data={cartData} id='cart'>
+            <div className={`absolute z-10 rounded-sm font-semibold text-white shadow-md px-1.5 p-1 capitalize text-sm ${discount==='new'?"bg-green-700":'bg-red-600'}`} 
                 style={discount?{display:'block'}:{display:'none'}}>
                 {discount}
             </div>
@@ -33,16 +34,20 @@ function ShoppingCart({itemImg,itemName,orgPrice,discountedPrice,discount}) {
                 <button className="w-full bg-black text-white text-base capitalize font-semibold rounded hover:opacity-85" 
                     style={{padding:'0.125rem 0'}}>add to cart</button>
             </div>
-            <div className="font-semibold capitalize">
-                <h4 className='text-sm ' >
-                    {itemName}
-                </h4>
-                <h5 className='text-base text-red-600 font-semibold'>
-                    {discountedPrice}
-                    <span className='line-through text-gray-500 text-sm font-medium ml-1'>
-                        {orgPrice}
-                    </span>
-                </h5>
+            <div className="h-full font-semibold capitalize flex flex-col justify-around">
+                <div>
+                    <h4 className='text-sm ' >
+                        {itemName}
+                    </h4>
+                </div>
+                <div>
+                    <h5 className='text-base text-red-600 font-semibold'>
+                        ${discountedPrice}
+                        <span className={`line-through text-gray-500 text-sm font-medium ml-1 ${orgPrice?'block':'hidden'}`}>
+                            ${orgPrice}
+                        </span>
+                    </h5>
+                </div>
             </div>
         </div>
     )

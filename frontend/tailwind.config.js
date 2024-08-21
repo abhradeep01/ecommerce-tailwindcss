@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
       screens:{
-        'x-sm':{'min':'350px','max':'480px'}
-      }
+        'x-sm':{'min':'350px','max':'480px'},
+        'tablet':{min:'480px','max':'1024px'}
+      },
     },
   },
   plugins: [],
