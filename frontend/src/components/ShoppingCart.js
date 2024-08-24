@@ -43,7 +43,7 @@ function ShoppingCart({key,itemImg,itemName,orgPrice,discountedPrice,discount}) 
                 <div>
                     <h5 className='text-base text-red-600 font-semibold'>
                         ${discountedPrice}
-                        <span className={`line-through text-gray-500 text-sm font-medium ml-1 ${orgPrice?'block':'hidden'}`}>
+                        <span className={`line-through text-gray-500 text-sm font-medium ml-1 ${orgPrice?'inline':'hidden'}`}>
                             ${orgPrice}
                         </span>
                     </h5>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Banner({bannerHeading,bannerCaption,bannerBgImg,imgAlt}) {
   return (
-    <div className="w-full flex flex-row items-center py-12 bg-gray-950">
+    <div className="w-full flex flex-row items-center py-10 bg-gray-950">
         <div className="w-1/2 max-h-fit flex flex-col justify-center gap-16 x-sm:gap-6 pl-12">
             <div>
                 <h5 className="text-base text-green-600 font-semibold capitalize">

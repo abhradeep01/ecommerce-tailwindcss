@@ -29,12 +29,12 @@
     },
     "sub":[
         {
-            "img":"../images/speaker.jpg",
+            "img":"../images/speaker.png",
             "head":"speakers",
             "desc":"Wireless speaker"
         },
         {
-            "img":"../images/perfume.jpg",
+            "img":"../images/perfume-ads.jpg",
             "head":"perfume",
             "desc":"Gucci perfume"
         }

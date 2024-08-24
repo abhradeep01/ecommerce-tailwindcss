@@ -1,11 +1,11 @@
 import React from 'react';
 
-function AdsTemplate({heading,describe,adsImg,adsAlt}) {
+function AdsTemplate({key,heading,describe,adsImg,adsAlt}) {
   return (
     <div className="w-full relative">
         <div className="absolute z-10 top-2 left-2 max-h-full flex flex-col gap-2">
             <div>
-                <h2 className="text-lg text-white font-bold">
+                <h2 className="text-lg text-white font-bold capitalize">
                     {heading}
                 </h2>
             </div>
@@ -20,8 +20,8 @@ function AdsTemplate({heading,describe,adsImg,adsAlt}) {
                 </a>
             </div>
         </div>
-        <div className="w-full">
-            <img src={adsImg} alt={adsAlt} className='w-full' />
+        <div className="w-full max-h-[100%]">
+            <img src={adsImg} alt={adsAlt} className='w-full max-h-[100%]' />
         </div>
     </div>
   )

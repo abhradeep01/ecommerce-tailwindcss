@@ -33,5 +33,12 @@
         "productName":"SONY PS5 gaming console",
         "price":"550",
         "notPrice":"650"
+    },
+    {
+        "discount":"24%",
+        "img":"./images/k-jacket.png",
+        "productName":"KOREAN style jacket",
+        "price":"400",
+        "notPrice":"600"
     }
 ]
