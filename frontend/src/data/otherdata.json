@@ -38,5 +38,30 @@
             "head":"perfume",
             "desc":"Gucci perfume"
         }
-    ]
+    ],
+    "websiteLogo":"./images/logo.ico",
+    "navContent":[
+        {
+            "path":"/",
+            "text":"home"
+        },
+        {
+            "path":"/contact",
+            "text":"contact"
+        },
+        {
+            "path":"/about",
+            "text":"about"
+        },
+        {
+            "path":"/signup",
+            "text":"sign up"
+        },
+        {
+            "path":"/signin",
+            "text":"sign in"
+        }
+    ],
+    "varifyPageImg":"./images/side-img.png",
+    "varifyPageImg1":"./images/site-img-2.jpg"
 }

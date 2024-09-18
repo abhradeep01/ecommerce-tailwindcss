@@ -16,7 +16,7 @@ function SlideBar({heading,headLine,bannerImg,alterText}) {
           </div>
           <div className="w-fit flex flex-row items-center gap-0.5 ">
             <div>
-              <a href="/" className='underline decoration-white text-white items-center underline-offset-2 '>Shop Now</a>
+              <a href="/" className='underline decoration-white text-white items-center underline-offset-2 text-sm font-bold'>Shop Now</a>
             </div>
             <ArrowForward style={{color:'white'}} fontSize='small'/>
           </div>

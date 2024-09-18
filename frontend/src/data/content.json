@@ -1,0 +1,164 @@
+{
+    "newProduct":[
+        {
+            "discount":"new",
+            "img":"./images/dog-food.jpg",
+            "productName":"dog pedgree",
+            "price":"20"
+        },
+        {
+            "discount":"",
+            "img":"./images/ps5.jpg",
+            "productName":"PS5 gamepad",
+            "price":"100"
+        },
+        {
+            "discount":"new",
+            "img":"./images/camera.png",
+            "productName":"DSLR camera",
+            "price":"230"
+        },
+        {
+            "discount":"",
+            "img":"./images/laptop.png",
+            "productName":"ASUS F15 gaming laptop",
+            "price":"450"
+        },
+        {
+            "discount":"",
+            "img":"./images/shampoo.png",
+            "productName":"LAKME shampoo",
+            "price":"45"
+        },
+        {
+            "discount":"new",
+            "img":"./images/refine-oil.png",
+            "productName":"SAFOLA refine oil",
+            "price":"30"
+        },
+        {
+            "discount":"",
+            "img":"./images/stool.jpg",
+            "productName":"IKIA stool",
+            "price":"90"
+        },
+        {
+            "discount":"",
+            "img":"./images/rice-packet.jpeg",
+            "productName":"INDIAGATE rice packet",
+            "price":"75"
+        },
+        {
+            "discount":"",
+            "img":"./images/soccer-shoe.png",
+            "productName":"NIKE football soccer shoe",
+            "price":"110"
+        },
+        {
+            "discount":"new",
+            "img":"./images/gaming-cabinet.jpeg",
+            "productName":"ANT e-sports gaming cabinet",
+            "price":"80"
+        },
+        {
+            "discount":"",
+            "img":"./images/gaming-table.jpg",
+            "productName":"IKIA gaming table",
+            "price":"300"
+        },
+        {
+            "discount":"new",
+            "img":"./images/fridge.jpeg",
+            "productName":"LG double door fridge",
+            "price":"800"
+        }
+    ],
+    "essentialProduct":[
+        {
+            "discount":"",
+            "img":"./images/jacket.png",
+            "productName":"K mountain jacket",
+            "price":"90",
+            "notprice":"120"    
+        },
+        {
+            "discount":"new",
+            "img":"./images/gucci-bag.jpg",
+            "productName":"Gucci Bag",
+            "price":"200",
+            "notprice":"320"    
+        },
+        {
+            "discount":"",
+            "img":"./images/cpu-cooler.jpg",
+            "productName":"cooler master liquid CPU cooler",
+            "price":"75",
+            "notprice":"180"    
+        },
+        {
+            "discount":"",
+            "img":"./images/small-drawer.png",
+            "productName":"IKIA small drawer",
+            "price":"60",
+            "notprice":"100"    
+        },
+        {
+            "discount":"new",
+            "img":"./images/jbl-speaker.jpg",
+            "productName":"JBL speaker",
+            "price":"110",
+            "notprice":"240"    
+        },
+        {
+            "discount":"new",
+            "img":"./images/jeans.png",
+            "productName":"DENIM blue jeans",
+            "price":"130",
+            "notprice":"300"    
+        }
+    ],
+    "discountedProduct":[
+        {
+            "discount":"34%",
+            "img":"./images/game-controller.png",
+            "productName":"HAVIT HT GamePad",
+            "price":"50",
+            "notPrice":"150 "
+        },
+        {
+            "discount":"23%",
+            "img":"./images/gaming-keyboard.png",
+            "productName":"ant-esports gaming keyboard",
+            "price":"80",
+            "notPrice":"200"
+        },
+        {
+            "discount":"28%",
+            "img":"./images/gaming-monitor.png",
+            "productName":"ASUS gaming monitor",
+            "price":"100",
+            "notPrice":"250"
+        },
+        {
+            "discount":"33%",
+            "img":"./images/rest-chair.png",
+            "productName":"IKIA rest chair",
+            "price":"120",
+            "notPrice":"180"
+        },
+        {
+            "discount":"37%",
+            "img":"./images/ps5.jpg",
+            "productName":"SONY PS5 gaming console",
+            "price":"550",
+            "notPrice":"650"
+        },
+        {
+            "discount":"24%",
+            "img":"./images/k-jacket.png",
+            "productName":"KOREAN style jacket",
+            "price":"400",
+            "notPrice":"600"
+        }
+    ]
+}

@@ -1,10 +1,8 @@
 import React from 'react'
 import ProductTemplate from '../components/ProductTemplate';
-import salesData from '../data/salesproductdata.json';
-import productData from '../data/productdata.json';
+import data from '../data/content.json';
 import ShoppingCart from '../components/ShoppingCart';
 import otherData from '../data/otherdata.json';
-import exploreProductData from '../data/exploredata.json';
 import CategoryCart from '../components/CategoryCart';
 import { Smartphone,Computer, Watch, CameraAlt, Headphones, SportsEsports } from '@mui/icons-material';
 import CategoryTemplete from '../components/CategoryTemplete';
@@ -46,7 +44,7 @@ function Product() {
           productSubheading={"flash sales"}
           arrowIcon={true}
           products={
-            salesData.map((item,index)=>(
+            data.discountedProduct.map((item,index)=>(
                 <ShoppingCart
                   key={index}
                   discount={item.discount}
@@ -76,7 +74,7 @@ function Product() {
           productSubheading={'best selling product'}
           arrowIcon={'view all'}
           products={
-            productData.map((item,index)=>(
+            data.newProduct.map((item,index)=>(
               <ShoppingCart
                 key={index}
                 discount={item.discount}
@@ -99,7 +97,7 @@ function Product() {
           productSubheading={'explore our products'}
           arrowIcon={true}
           products={
-            exploreProductData.map((item,index)=>(
+            data.newProduct.map((item,index)=>(
               <ShoppingCart 
                key={indexedDB}
                discount={item.discount}

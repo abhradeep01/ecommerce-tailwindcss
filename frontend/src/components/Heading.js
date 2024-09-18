@@ -16,8 +16,10 @@ function Heading({heading,subHeading,icon}) {
             style={icon?{display:'block'}:{display:'none'}}>
             {
                 icon==='view all'?
-                    <button className='text-white capitalize bg-red-500 text-base font-medium p-1 shadow-red-200 rounded-sm shadow
-                    hover:bg-white hover:text-black hover:border-gray-300 hover:border hover:shadow-gray-200'>view all</button>:
+                    <button className='text-white capitalize bg-red-500 text-base font-semibold p-1 shadow-red-200 rounded-sm shadow
+                    hover:bg-white hover:text-black hover:border-gray-300 hover:border hover:shadow-gray-200'>
+                        view all
+                    </button>:
                     <ButtonGroup className='flex flex-row gap-0.5'>
                         <div className="border rounded-full">
                             <IconButton>
