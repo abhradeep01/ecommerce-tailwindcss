@@ -10,24 +10,29 @@ import Contact from './components/Contact';
 import About from './components/About';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
+//this is the layout which is shown as navbar and footer for all pages
 const Layout =()=>{
   return(
     <>
       <Nav/>
-      <Outlet/>
+      <>
+        <Outlet/>
+      </>
+      <Footer/>
     </>
   )
 }
+//home page for introduction
 const Home =()=>{
   return(
     <>
       <Header/>
       <Product/>
       <Ads/>
-      <Footer/>
     </>
   )
 }
+//in this main navigation takes part means page routing
 function App() {
   return (
     <>
@@ -35,7 +40,7 @@ function App() {
         <Route path='/' element={<Layout/>}>
           <Route index path='/' element={<Home/>} />
           <Route path='/contact' element={<Contact/>} />
-          <Route path='/about' element={<About/>} />
+          <Route path='/about' element={<About wdth={true}/>} />
           <Route path='/signup' element={<SignUp/>} />
           <Route path='/signin' element={<SignIn/>} />
           <Route path='*' element={<NotFound/>}/>

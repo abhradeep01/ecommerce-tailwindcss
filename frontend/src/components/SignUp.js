@@ -43,7 +43,7 @@ function SignUp() {
                     </button>
                     <div>
                       <h5 className="text-[0.9rem] font-semibold">
-                        Already have account? <span className='underline underline-offset-4'><a href="/">Log in</a></span>
+                        Already have account? <span className='underline underline-offset-4'><a href="/signin">Log in</a></span>
                       </h5>
                     </div>
                   </div>

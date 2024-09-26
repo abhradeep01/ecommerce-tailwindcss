@@ -13,7 +13,7 @@ const account =[
         text:'my account'
     },
     {
-        path:'/login',
+        path:'/signin',
         text:'login / register'
     },
     {

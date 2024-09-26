@@ -32,14 +32,14 @@ function ShoppingCart({key,itemImg,itemName,orgPrice,discountedPrice,discount}) 
                 <div>
                     <img src={itemImg} alt={itemName} />
                 </div>
-                <button className="w-full bg-black text-white text-sm capitalize font-medium rounded hover:opacity-85" 
+                <button className="w-full bg-black text-white text-base capitalize font-semibold rounded hover:opacity-85" 
                     style={{padding:'0.125rem 0'}}>
                         add to cart
                 </button>
             </div>
             <div className="h-full font-semibold capitalize flex flex-col justify-around">
                 <div>
-                    <h4 className='text-base' >
+                    <h4 className='text-sm font-semibold' >
                         {itemName}
                     </h4>
                 </div>
